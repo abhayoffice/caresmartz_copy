@@ -1,0 +1,18 @@
+[ 2023-10-05 18:22:46,395 ] 71 root - INFO - this is kind of main function that runs the complete mid process. 
+[ 2023-10-05 18:22:46,396 ] 48 root - INFO - Enter the data ingestion method
+[ 2023-10-05 18:22:46,396 ] 51 root - INFO - Read the dataset as dataframe
+[ 2023-10-05 18:22:46,396 ] 54 root - INFO - Train test split initiated
+[ 2023-10-05 18:22:46,417 ] 78 root - INFO - Read train and test data completed
+[ 2023-10-05 18:22:46,417 ] 81 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-05 18:22:46,417 ] 62 root - INFO - Invoice columns: ['Invoice Amount']
+[ 2023-10-05 18:22:46,432 ] 41 root - INFO - Working on Models !
+[ 2023-10-05 18:22:48,280 ] 72 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-05 18:22:48,289 ] 71 root - INFO - this is kind of main function that runs the complete mid process. 
+[ 2023-10-05 18:22:48,289 ] 48 root - INFO - Enter the data ingestion method
+[ 2023-10-05 18:22:48,289 ] 51 root - INFO - Read the dataset as dataframe
+[ 2023-10-05 18:22:48,290 ] 54 root - INFO - Train test split initiated
+[ 2023-10-05 18:22:48,307 ] 78 root - INFO - Read train and test data completed
+[ 2023-10-05 18:22:48,307 ] 81 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-05 18:22:48,307 ] 62 root - INFO - Invoice columns: ['Invoice Amount']
+[ 2023-10-05 18:22:48,320 ] 41 root - INFO - Working on Models !
+[ 2023-10-05 18:23:09,021 ] 72 root - INFO - Best found model on both training and testing dataset

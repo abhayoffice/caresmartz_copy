@@ -1,0 +1,27 @@
+[ 2023-10-06 13:47:57,270 ] 71 root - INFO - this is kind of main function that runs the complete mid process. 
+[ 2023-10-06 13:47:57,270 ] 48 root - INFO - Enter the data ingestion method
+[ 2023-10-06 13:47:57,270 ] 51 root - INFO - Read the dataset as dataframe
+[ 2023-10-06 13:47:57,271 ] 54 root - INFO - Train test split initiated
+[ 2023-10-06 13:47:57,293 ] 78 root - INFO - Read train and test data completed
+[ 2023-10-06 13:47:57,293 ] 81 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-06 13:47:57,293 ] 62 root - INFO - Invoice columns: ['Invoice Amount']
+[ 2023-10-06 13:47:57,308 ] 36 root - INFO - Working on Models !
+[ 2023-10-06 13:47:58,421 ] 67 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-06 13:47:58,426 ] 71 root - INFO - this is kind of main function that runs the complete mid process. 
+[ 2023-10-06 13:47:58,426 ] 48 root - INFO - Enter the data ingestion method
+[ 2023-10-06 13:47:58,426 ] 51 root - INFO - Read the dataset as dataframe
+[ 2023-10-06 13:47:58,426 ] 54 root - INFO - Train test split initiated
+[ 2023-10-06 13:47:58,445 ] 78 root - INFO - Read train and test data completed
+[ 2023-10-06 13:47:58,445 ] 81 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-06 13:47:58,445 ] 62 root - INFO - Invoice columns: ['Invoice Amount']
+[ 2023-10-06 13:47:58,459 ] 36 root - INFO - Working on Models !
+[ 2023-10-06 13:47:59,282 ] 67 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-06 13:47:59,287 ] 71 root - INFO - this is kind of main function that runs the complete mid process. 
+[ 2023-10-06 13:47:59,287 ] 48 root - INFO - Enter the data ingestion method
+[ 2023-10-06 13:47:59,288 ] 51 root - INFO - Read the dataset as dataframe
+[ 2023-10-06 13:47:59,288 ] 54 root - INFO - Train test split initiated
+[ 2023-10-06 13:47:59,304 ] 78 root - INFO - Read train and test data completed
+[ 2023-10-06 13:47:59,304 ] 81 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-06 13:47:59,304 ] 62 root - INFO - Invoice columns: ['Invoice Amount']
+[ 2023-10-06 13:47:59,317 ] 36 root - INFO - Working on Models !
+[ 2023-10-06 13:48:00,447 ] 67 root - INFO - Best found model on both training and testing dataset
