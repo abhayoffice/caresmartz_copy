@@ -21,25 +21,25 @@ def evaluate_models(train, test, models):
         my_instance = {}
 
         for model_name, model in models.items():
-            model_instance = model.get_model(train, test)  # Instantiate the model
 
-            # Get the forecasting value.
+            # model_instance = model.get_model(train['Invoice Amount'],test["Invoice Amount"])  # Instantiate the model
+            model_instance = model.get_model(train , test)  # Instantiate the model
+
+            #get the forecasting value.
             forecast_instance = model.get_forecast(train, test, model_instance)
 
-            # Train the model on the training data and calculate the R^2 score.
-            r2_score_value = model.get_score(test, forecast_instance)
-            print(f"The R^2 score for {model_name} is {r2_score_value}")
+            # Train the model on the training data and calculate the r2 too.
+            r2_score = model.get_score(test, forecast_instance)
+            print("the r2_score is ", r2_score)
 
             # Store the R^2 score in the report
             if model_name not in report:
                 report[model_name] = []
                 my_instance[model_name] = []
 
-            report[model_name].append(r2_score_value)
+            report[model_name].append(r2_score)
             my_instance[model_name].append(model_instance)
-
-        return report, my_instance, forecast_instance
-
+        return report, my_instance
     except Exception as e:
         raise CustomException(e)
 

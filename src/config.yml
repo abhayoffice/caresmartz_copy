@@ -7,14 +7,15 @@
 #  raw_data_path: "C:\\Users\\abhay.bhandari\\Jupyter files\\Caresmartz360\\src\\components\\agency\\sales.csv"
 
 data:
-  data_folder: r"C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\Agencies"
-  train_data_path: r"C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\train.csv"
-  test_data_path: r"C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\test.csv"
-  raw_data_path: r"C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\sales.csv"
+  data_folder: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\Agencies
+  train_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\train.csv
+  test_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\test.csv
+  raw_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\sales.csv
+  preprocessor_file: src/components/artifacts/preprocessor.pkl
 
   model:
-    save_folder: "artifacts"
-    trained_model_file: "trained_model.pkl"
+    save_folder: artifacts
+    trained_model_file: trained_model.pkl
 
 
 #arima_model:

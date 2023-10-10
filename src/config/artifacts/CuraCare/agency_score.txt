@@ -1,0 +1,2 @@
+Best Model Name: LinearRegression
+R2 Score: [-1.9753420318181516]

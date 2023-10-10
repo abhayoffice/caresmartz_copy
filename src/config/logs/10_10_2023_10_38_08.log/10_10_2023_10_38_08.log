@@ -1,0 +1,8 @@
+[ 2023-10-10 10:38:10,582 ] 26 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< AdmireCare >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-10 10:38:10,583 ] 27 root - INFO - Starting the data loader process....
+[ 2023-10-10 10:38:10,667 ] 57 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-10 10:38:10,667 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-10 10:38:10,667 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-10 10:38:10,668 ] 41 root - INFO - Train-test split initiated

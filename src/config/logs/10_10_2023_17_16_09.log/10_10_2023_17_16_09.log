@@ -1,0 +1,39 @@
+[ 2023-10-10 17:16:11,472 ] 27 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< AdmireCare >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-10 17:16:11,472 ] 27 root - INFO - Starting the data loader process....
+[ 2023-10-10 17:16:11,484 ] 58 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-10 17:16:11,485 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-10 17:16:11,485 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-10 17:16:11,485 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-10 17:16:11,507 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-10 17:16:11,513 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-10 17:16:11,534 ] 40 root - INFO - Working on Models !
+[ 2023-10-10 17:16:15,512 ] 72 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-10 17:16:15,522 ] 40 root - INFO - data loaded successfully for AdmireCare
+[ 2023-10-10 17:16:15,523 ] 27 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< Bluemountain >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-10 17:16:15,523 ] 27 root - INFO - Starting the data loader process....
+[ 2023-10-10 17:16:15,525 ] 58 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-10 17:16:15,525 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-10 17:16:15,526 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-10 17:16:15,526 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-10 17:16:15,544 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-10 17:16:15,544 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-10 17:16:15,562 ] 40 root - INFO - Working on Models !
+[ 2023-10-10 17:16:19,417 ] 72 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-10 17:16:19,426 ] 40 root - INFO - data loaded successfully for Bluemountain
+[ 2023-10-10 17:16:19,426 ] 27 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< CuraCare >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-10 17:16:19,426 ] 27 root - INFO - Starting the data loader process....
+[ 2023-10-10 17:16:19,428 ] 58 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-10 17:16:19,428 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-10 17:16:19,428 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-10 17:16:19,429 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-10 17:16:19,441 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-10 17:16:19,442 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-10 17:16:19,458 ] 40 root - INFO - Working on Models !
+[ 2023-10-10 17:16:23,224 ] 72 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-10 17:16:23,231 ] 40 root - INFO - data loaded successfully for CuraCare
