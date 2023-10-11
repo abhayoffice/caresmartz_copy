@@ -8,10 +8,12 @@
 
 data:
   data_folder: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\Agencies
+  data_store_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency
   train_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\train.csv
   test_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\test.csv
   raw_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\sales.csv
   preprocessor_file: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\artifacts\preprocessor.pkl
+  start_date: '2023-09-01'
 
   model:
     save_folder: artifacts

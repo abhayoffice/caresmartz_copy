@@ -32,8 +32,12 @@ class ModelTrainerConfig:
 
 
 class ModelTrainer:
-    def __init__(self, agency_name):
+    def __init__(self, agency_name, config):
+        #This config is static and is used to store the predictions and pickle files.
         self.model_trainer_config = ModelTrainerConfig(agency_name)
+
+        #This config is dynamic and is called from the config.yml file for changing the start_date while calculating predictions.
+        self.external_config = config
         self.agency_name = agency_name
         print(f"\n<<<<<<<<<<<<<<<<<<<<<<<<<< {agency_name}>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n")
 
@@ -45,9 +49,6 @@ class ModelTrainer:
             X_train, y_test = train_array, test_array
 
             models = {
-                # 'MA-5' : M_A_5 ,
-                # 'MA-15' : M_A_15,
-                # 'MA-30' : M_A_30,
                 'ARIMA': ARIMA.ARIMAModel(),
                 'SARIMA': SARIMA.SARIMAModel(),
                 'AutoReg': AUTOREG.AutoRegModel(),
@@ -134,7 +135,8 @@ class ModelTrainer:
             return
 
         # Create a temporary DataFrame with invoice date and invoice amount columns
-        start_date = pd.Timestamp('2023-09-01')
+        # start_date = pd.Timestamp('2023-09-01')
+        start_date = pd.Timestamp(self.external_config['start_date'])
         end_date = start_date + pd.DateOffset(months= len(future_pred))
         date_range = pd.date_range(start_date, end_date, freq='M')
         temp_df = pd.DataFrame({'invoice date': date_range, 'invoice amount': future_pred})

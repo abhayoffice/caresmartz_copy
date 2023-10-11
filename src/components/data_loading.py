@@ -22,7 +22,7 @@ class DataLoader:
     def get_the_folders(self, config):
         agency_names = []
         csv_file = None
-        result_dict = {}
+        result_dict = []
         logging.info("Starting the data loader process....")
         # print(f"------------ {self.folder_path}  ---------")
 
@@ -42,12 +42,13 @@ class DataLoader:
                 sales_data_path = os.path.join(subfolder_path, 'sales.csv')
                 if os.path.exists(sales_data_path):
                     csv_file = sales_data_path
-                    obj = DataIngestion()
+                    obj = DataIngestion(config)
                     df = pd.read_csv(csv_file)
-                    result_dict = obj.run_the_files(df, subfolder_name, config )
+                    # result_dict = obj.run_the_files(df, subfolder_name, config )
+                    result_dict.append( obj.run_the_files(df, subfolder_name, config ))
                     logging.info(f"data loaded successfully for {subfolder_name}")
                 else:
-                    result_dict[subfolder_name] = {"message": "404 - No 'sales.csv found"}
+                    result_dict = {"message": "404 - No 'sales.csv found"}
                     logging.info(f"No sales.csv for {subfolder_name}")
 
         self.loader_config.raw_data_path = csv_file

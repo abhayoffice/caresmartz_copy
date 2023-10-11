@@ -1,9 +1,6 @@
 import os
 import yaml
 from src.components.data_loading import DataLoader
-from src.components.data_transformation import DataTransformation
-from src.components.model_trainer import ModelTrainer
-from src.utils import load_object
 from src.logger import logging
 
 

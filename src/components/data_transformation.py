@@ -13,6 +13,10 @@ class DataTransformationConfig:
     preprocessor_obj_file_path: str = os.path.join("artifacts", "preprocessor.pkl")
 
 class DataTransformation:
+    """
+            The Data Transformation will perform simple imputation on the data and also I have added a custom method that
+                    will replace the null values in the data with the median.
+    """
     def __init__(self, config):
         self.data_transformation_config = config
 
