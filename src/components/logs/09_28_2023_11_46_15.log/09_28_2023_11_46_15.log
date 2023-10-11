@@ -1,3 +1,0 @@
-[ 2023-09-28 11:46:15,933 ] 47 root - INFO - Enter the data ingestion method
-[ 2023-09-28 11:46:15,941 ] 51 root - INFO - Read the dataset as dataframe
-[ 2023-09-28 11:46:15,942 ] 54 root - INFO - Train test split initiated

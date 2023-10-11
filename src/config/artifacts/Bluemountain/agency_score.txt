@@ -1,2 +1,2 @@
-Best Model Name: SARIMA
-R2 Score: [0.22233866383206513]
+Best Model Name: ARIMA
+R2 Score: [0.18586590062879393]

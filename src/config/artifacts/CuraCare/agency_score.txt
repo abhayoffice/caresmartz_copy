@@ -1,2 +1,2 @@
-Best Model Name: LinearRegression
-R2 Score: [-1.9753420318181516]
+Best Model Name: SARIMA
+R2 Score: [-0.14952406434595011]

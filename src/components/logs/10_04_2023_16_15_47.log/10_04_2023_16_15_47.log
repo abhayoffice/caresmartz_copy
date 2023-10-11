@@ -1,7 +1,0 @@
-[ 2023-10-04 16:15:49,592 ] 48 root - INFO - Enter the data ingestion method
-[ 2023-10-04 16:15:49,601 ] 52 root - INFO - Read the dataset as dataframe
-[ 2023-10-04 16:15:49,601 ] 55 root - INFO - Train test split initiated
-[ 2023-10-04 16:15:49,624 ] 67 root - INFO - Read train and test data completed
-[ 2023-10-04 16:15:49,628 ] 70 root - INFO - Obtaining time series data transformation parameters
-[ 2023-10-04 16:15:49,628 ] 51 root - INFO - Invoice columns: ['Invoice Amount']
-[ 2023-10-04 16:15:49,639 ] 37 root - INFO - Working on Models !

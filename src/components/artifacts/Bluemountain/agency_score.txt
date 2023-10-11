@@ -1,2 +1,0 @@
-Best Model Name: SARIMA
-R2 Score: [0.22233866383206513]

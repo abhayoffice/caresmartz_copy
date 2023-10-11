@@ -1,0 +1,13 @@
+[ 2023-10-11 11:17:07,813 ] 26 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\Agencies >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-11 11:17:07,813 ] 26 root - INFO - Starting the data loader process....
+[ 2023-10-11 11:17:07,813 ] 32 root - INFO - Now working on each subfolder.
+[ 2023-10-11 11:17:07,814 ] 39 root - INFO - Started with the data_loading process.
+[ 2023-10-11 11:17:07,822 ] 66 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-11 11:17:07,822 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-11 11:17:07,831 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 11:17:07,832 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-11 11:17:07,866 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-11 11:17:07,866 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 11:17:07,886 ] 42 root - INFO - Working on Models !

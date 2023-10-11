@@ -9,6 +9,8 @@ import sys
 from dataclasses import dataclass
 import numpy as np
 import pandas as pd
+
+from src.Models import ExpoSmoothing
 from src.exception import CustomException
 from src.logger import logging
 import src.Models.ARIMA_model as ARIMA
@@ -49,7 +51,8 @@ class ModelTrainer:
                 'ARIMA': ARIMA.ARIMAModel(),
                 'SARIMA': SARIMA.SARIMAModel(),
                 'AutoReg': AUTOREG.AutoRegModel(),
-                'LinearRegression': LinearReg.LinearRegressionModel()
+                'LinearRegression': LinearReg.LinearRegressionModel(),
+                'ExpoSmoothing': ExpoSmoothing.ESModel()
             }
 
             # model_report , model_instance , forecast_val = evaluate_models(X_train, y_test, models )
@@ -120,10 +123,12 @@ class ModelTrainer:
             future_pred = model[0].predict(steps=12)
 
         elif name == 'SARIMA':
-            future_pred = model[0].predict(steps=12)
+            future_pred = model[0].forecast(steps=12)
 
         elif name == 'AutoReg':
             future_pred = model[0].predict(start=len(resampled), end=len(resampled) + 12, dynamic=False)
+        elif name == 'ExpoSmoothing':
+            future_pred = model[0].forecast(steps=12)
         else:
             print("No future prediction was made")
             return

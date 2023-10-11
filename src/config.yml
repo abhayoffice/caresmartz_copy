@@ -11,7 +11,7 @@ data:
   train_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\train.csv
   test_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\test.csv
   raw_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\sales.csv
-  preprocessor_file: src/components/artifacts/preprocessor.pkl
+  preprocessor_file: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\artifacts\preprocessor.pkl
 
   model:
     save_folder: artifacts

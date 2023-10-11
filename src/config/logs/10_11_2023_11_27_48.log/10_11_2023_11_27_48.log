@@ -1,0 +1,37 @@
+[ 2023-10-11 11:27:48,944 ] 26 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\Agencies >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-11 11:27:48,944 ] 26 root - INFO - Starting the data loader process....
+[ 2023-10-11 11:27:48,944 ] 32 root - INFO - Now working on each subfolder.
+[ 2023-10-11 11:27:48,944 ] 39 root - INFO - Started with the data_loading process.
+[ 2023-10-11 11:27:48,953 ] 66 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-11 11:27:48,954 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-11 11:27:48,954 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 11:27:48,954 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-11 11:27:48,991 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-11 11:27:48,991 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 11:27:49,011 ] 42 root - INFO - Working on Models !
+[ 2023-10-11 11:27:54,254 ] 75 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-11 11:27:54,267 ] 48 root - INFO - data loaded successfully for AdmireCare
+[ 2023-10-11 11:27:54,267 ] 32 root - INFO - Now working on each subfolder.
+[ 2023-10-11 11:27:54,267 ] 39 root - INFO - Started with the data_loading process.
+[ 2023-10-11 11:27:54,270 ] 66 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-11 11:27:54,270 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-11 11:27:54,270 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 11:27:54,270 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-11 11:27:54,297 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-11 11:27:54,297 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 11:27:54,314 ] 42 root - INFO - Working on Models !
+[ 2023-10-11 11:27:59,093 ] 75 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-11 11:27:59,108 ] 48 root - INFO - data loaded successfully for Bluemountain
+[ 2023-10-11 11:27:59,108 ] 32 root - INFO - Now working on each subfolder.
+[ 2023-10-11 11:27:59,108 ] 39 root - INFO - Started with the data_loading process.
+[ 2023-10-11 11:27:59,111 ] 66 root - INFO - This is the main function that runs the complete mid process.
+[ 2023-10-11 11:27:59,111 ] 35 root - INFO - Entering the data ingestion method
+[ 2023-10-11 11:27:59,111 ] 38 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 11:27:59,111 ] 41 root - INFO - Train-test split initiated
+[ 2023-10-11 11:27:59,143 ] 42 root - INFO - Read train and test data completed
+[ 2023-10-11 11:27:59,143 ] 46 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 11:27:59,162 ] 42 root - INFO - Working on Models !
+[ 2023-10-11 11:28:04,565 ] 75 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-11 11:28:04,580 ] 48 root - INFO - data loaded successfully for CuraCare

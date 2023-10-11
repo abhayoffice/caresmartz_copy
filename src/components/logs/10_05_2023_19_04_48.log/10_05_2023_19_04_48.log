@@ -1,8 +1,0 @@
-[ 2023-10-05 19:04:50,248 ] 71 root - INFO - this is kind of main function that runs the complete mid process. 
-[ 2023-10-05 19:04:50,249 ] 48 root - INFO - Enter the data ingestion method
-[ 2023-10-05 19:04:50,249 ] 51 root - INFO - Read the dataset as dataframe
-[ 2023-10-05 19:04:50,249 ] 54 root - INFO - Train test split initiated
-[ 2023-10-05 19:04:50,270 ] 78 root - INFO - Read train and test data completed
-[ 2023-10-05 19:04:50,270 ] 81 root - INFO - Obtaining time series data transformation parameters
-[ 2023-10-05 19:04:50,270 ] 62 root - INFO - Invoice columns: ['Invoice Amount']
-[ 2023-10-05 19:04:50,318 ] 42 root - INFO - Working on Models !

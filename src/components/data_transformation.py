@@ -77,9 +77,9 @@ class DataTransformation:
             if train_df_transformed.shape[0] + test_df_transformed.shape[0] <= 36:
                 self.skip_file()
 
-            train_df_transformed = self.replace_zero_with_mean(train_df_transformed)
-            test_df_transformed = self.replace_zero_with_mean(test_df_transformed)
-            df_transformed = self.replace_zero_with_mean(df_transformed)
+            train_df_transformed = self.replace_zero_with_median(train_df_transformed)
+            test_df_transformed = self.replace_zero_with_median(test_df_transformed)
+            df_transformed = self.replace_zero_with_median(df_transformed)
 
             save_object(
                 file_path=self.data_transformation_config["preprocessor_file"], obj=preprocessor
@@ -94,7 +94,7 @@ class DataTransformation:
         print("Skip this file and use os.write() here")
         return
 
-    def replace_zero_with_mean(self, df):
-        median_value = df[df['Invoice Amount'] != 0.0]['Invoice Amount'].mean()
+    def replace_zero_with_median(self, df):
+        median_value = df[df['Invoice Amount'] != 0.0]['Invoice Amount'].median()
         df.loc[df['Invoice Amount'] == 0.0, 'Invoice Amount'] = median_value
         return df

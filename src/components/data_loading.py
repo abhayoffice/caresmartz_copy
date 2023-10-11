@@ -24,16 +24,14 @@ class DataLoader:
         csv_file = None
         result_dict = {}
         logging.info("Starting the data loader process....")
-        print(f"------------ {self.folder_path}  ---------")
+        # print(f"------------ {self.folder_path}  ---------")
 
         # Assuming folder_path contains subfolders with agency names
         for subfolder_name in os.listdir(self.folder_path):
 
             logging.info("Now working on each subfolder.")
-
             subfolder_path = os.path.join(self.folder_path, subfolder_name)
-
-            print(f"*********  {subfolder_name}  ************\n*********** {subfolder_path}")
+            #If the subfolder is persent then this if statement is executed.
             if os.path.isdir(subfolder_path):
 
                 # Save the agency name (subfolder name) to the list

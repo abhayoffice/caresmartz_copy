@@ -1,2 +1,2 @@
-Best Model Name: ARIMA
-R2 Score: [-0.20172777760029148]
+Best Model Name: ExpoSmoothing
+R2 Score: [-0.031399501994662904]
