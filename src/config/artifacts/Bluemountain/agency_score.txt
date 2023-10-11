@@ -1,2 +1,0 @@
-Best Model Name: ARIMA
-R2 Score: [0.18586590062879393]
