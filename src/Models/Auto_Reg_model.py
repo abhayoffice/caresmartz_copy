@@ -11,7 +11,7 @@ class AutoRegModel:
     def get_model(self, train, test):
         # AutoReg model
         print("------------------------------The AutoReg Model ------------------------------")
-        autoreg_model = AutoReg(train, lags=1)
+        autoreg_model = AutoReg(train, lags=30)
         autoreg_model_fit = autoreg_model.fit()
         return autoreg_model_fit
 

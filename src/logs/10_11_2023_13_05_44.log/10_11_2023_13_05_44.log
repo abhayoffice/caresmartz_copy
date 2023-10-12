@@ -1,0 +1,52 @@
+[ 2023-10-11 13:05:44,465 ] 23 root - INFO - 
+<<<<<<<<<<<<<<<<<<<<<<<<<< C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\Agencies >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+[ 2023-10-11 13:05:44,466 ] 27 root - INFO - Starting the data loader process....
+[ 2023-10-11 13:05:44,466 ] 31 root - INFO - Now working on each subfolder.
+[ 2023-10-11 13:05:44,466 ] 38 root - INFO - Started with the data loading process for AdmireCare
+[ 2023-10-11 13:05:44,474 ] 64 root - INFO - This is the main function that runs the complete data processing pipeline.
+[ 2023-10-11 13:05:44,474 ] 33 root - INFO - Entering the data ingestion method
+[ 2023-10-11 13:05:44,474 ] 36 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 13:05:44,475 ] 39 root - INFO - Train-test split initiated
+[ 2023-10-11 13:05:44,475 ] 21 root - INFO - Preprocessing data...
+[ 2023-10-11 13:05:44,491 ] 56 root - INFO - Data ingestion completed successfully.
+[ 2023-10-11 13:05:44,491 ] 69 root - INFO - Data ingestion completed, running the data transformation...
+[ 2023-10-11 13:05:44,503 ] 46 root - INFO - Read train and test data completed
+[ 2023-10-11 13:05:44,503 ] 50 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 13:05:44,521 ] 72 root - INFO - Data transformation completed, initiating model training...
+[ 2023-10-11 13:05:44,521 ] 41 root - INFO - Working on Models !
+[ 2023-10-11 13:05:49,669 ] 61 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-11 13:05:49,703 ] 76 root - INFO - Model training completed successfully.
+[ 2023-10-11 13:05:49,703 ] 47 root - INFO - Data loaded successfully for AdmireCare
+[ 2023-10-11 13:05:49,703 ] 31 root - INFO - Now working on each subfolder.
+[ 2023-10-11 13:05:49,704 ] 38 root - INFO - Started with the data loading process for Bluemountain
+[ 2023-10-11 13:05:49,706 ] 64 root - INFO - This is the main function that runs the complete data processing pipeline.
+[ 2023-10-11 13:05:49,707 ] 33 root - INFO - Entering the data ingestion method
+[ 2023-10-11 13:05:49,707 ] 36 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 13:05:49,707 ] 39 root - INFO - Train-test split initiated
+[ 2023-10-11 13:05:49,707 ] 21 root - INFO - Preprocessing data...
+[ 2023-10-11 13:05:49,719 ] 56 root - INFO - Data ingestion completed successfully.
+[ 2023-10-11 13:05:49,720 ] 69 root - INFO - Data ingestion completed, running the data transformation...
+[ 2023-10-11 13:05:49,731 ] 46 root - INFO - Read train and test data completed
+[ 2023-10-11 13:05:49,731 ] 50 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 13:05:49,748 ] 72 root - INFO - Data transformation completed, initiating model training...
+[ 2023-10-11 13:05:49,748 ] 41 root - INFO - Working on Models !
+[ 2023-10-11 13:05:54,342 ] 61 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-11 13:05:54,357 ] 76 root - INFO - Model training completed successfully.
+[ 2023-10-11 13:05:54,357 ] 47 root - INFO - Data loaded successfully for Bluemountain
+[ 2023-10-11 13:05:54,357 ] 31 root - INFO - Now working on each subfolder.
+[ 2023-10-11 13:05:54,358 ] 38 root - INFO - Started with the data loading process for CuraCare
+[ 2023-10-11 13:05:54,361 ] 64 root - INFO - This is the main function that runs the complete data processing pipeline.
+[ 2023-10-11 13:05:54,361 ] 33 root - INFO - Entering the data ingestion method
+[ 2023-10-11 13:05:54,361 ] 36 root - INFO - Reading the dataset as a dataframe
+[ 2023-10-11 13:05:54,361 ] 39 root - INFO - Train-test split initiated
+[ 2023-10-11 13:05:54,361 ] 21 root - INFO - Preprocessing data...
+[ 2023-10-11 13:05:54,372 ] 56 root - INFO - Data ingestion completed successfully.
+[ 2023-10-11 13:05:54,372 ] 69 root - INFO - Data ingestion completed, running the data transformation...
+[ 2023-10-11 13:05:54,386 ] 46 root - INFO - Read train and test data completed
+[ 2023-10-11 13:05:54,386 ] 50 root - INFO - Obtaining time series data transformation parameters
+[ 2023-10-11 13:05:54,405 ] 72 root - INFO - Data transformation completed, initiating model training...
+[ 2023-10-11 13:05:54,405 ] 41 root - INFO - Working on Models !
+[ 2023-10-11 13:06:00,042 ] 61 root - INFO - Best found model on both training and testing dataset
+[ 2023-10-11 13:06:00,074 ] 76 root - INFO - Model training completed successfully.
+[ 2023-10-11 13:06:00,076 ] 47 root - INFO - Data loaded successfully for CuraCare

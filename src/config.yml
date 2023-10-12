@@ -13,11 +13,12 @@ data:
   test_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\test.csv
   raw_data_path: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\agency\sales.csv
   preprocessor_file: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\components\artifacts\preprocessor.pkl
+  trained_models_root: C:\Users\abhay.bhandari\Jupyter files\Caresmartz360\src\artifacts
   start_date: '2023-09-01'
 
-  model:
-    save_folder: artifacts
-    trained_model_file: trained_model.pkl
+#  model:
+#    save_folder: artifacts
+#    trained_model_file: trained_model.pkl
 
 
 #arima_model:
